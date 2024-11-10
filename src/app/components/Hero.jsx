@@ -62,10 +62,10 @@ console.log("Selamat datang!")
 export default function Hero() {
     return (
         <div className="relative overflow-hidden -mb-[5rem]" id="hero">
-            <div className="absolute inset-0 z-0 my-4 -ml-[10vh] bg-black w-[12rem] h-[12rem] rounded-full"></div>
-            <div className="absolute inset-0 z-0 mt-32 -ml-[7vh] bg-purple-800 w-[18rem] h-[18rem] rounded-full"></div>
-            <div className="absolute inset-0 z-0 mt-32 ml-[calc(100vw-11rem)] md:ml-[calc(100vw-20rem)] bg-purple-800 w-[30rem] h-[30rem] rounded-full"></div>
-            <div className="absolute inset-0 z-0 mt-96 ml-[calc(100vw-8rem)] bg-black w-[24rem] h-[24rem] rounded-full"></div>
+            <div className="absolute inset-0 z-0 my-4 -ml-[10vh] bg-black w-[12rem] h-[12rem] rounded-full float-animation-x"></div>
+            <div className="absolute inset-0 z-0 mt-32 -ml-[7vh] bg-purple-800 w-[18rem] h-[18rem] rounded-full float-animation-y"></div>
+            <div className="absolute inset-0 z-0 mt-32 ml-[calc(100vw-11rem)] md:ml-[calc(100vw-20rem)] bg-purple-800 w-[30rem] h-[30rem] rounded-full float-animation-y"></div>
+            <div className="absolute inset-0 z-0 mt-96 ml-[calc(100vw-8rem)] bg-black w-[24rem] h-[24rem] rounded-full float-animation-x"></div>
             <div className="absolute z-0 flex items-center justify-center h-screen">
                 <svg
                     className="w-[100vw] h-[100vh] neon-wave"
@@ -88,7 +88,7 @@ export default function Hero() {
                             <TypingEffect text={'console.log("Selamat datang!")'} speed={100} />
                         </h1>
                         <p className="text-center text-black font-Funnel_Sans text-base md:text-2xl text-wrap w-[60vw] h-[15vh]">
-                            Selamat datang di portofolio <b>Wibi Laksono Wijaya!</b> Jelajahi berbagai proyek dan pengalaman saya di bidang teknologi dan pengembangan. Terima kasih sudah berkunjung, dan jangan ragu untuk menghubungi jika ada yang ingin didiskusikan!
+                            Selamat datang di portofolio <b>Wibi Laksono Wijaya!</b> Jelajahi berbagai proyek dan pengalaman saya di bidang teknologi. Terima kasih sudah berkunjung, dan jangan ragu untuk menghubungi jika ada yang ingin didiskusikan!
                         </p>
                     </div>
                 </div>

@@ -4,12 +4,12 @@ import { useEffect, useState } from 'react';
 
 export default function About() {
     return (
-        <footer className="flex justify-center bg-purple-300 w-full h-[20vh] " id='footer'>
+        <footer className="flex justify-center bg-purple-300 w-full h-[30vh] " id='footer'>
             <div className='mt-4 md:mt-8 lg:mt-10'>
                 <h1 className='text-black text-center font-Fira_Code text-xl md:text-2xl lg:text-3xl font-semibold'>
                     contact me !
                 </h1>
-                <div className='flex flex-row mt-4 md:mt-10 gap-4 md:gap-8 lg:gap-10'>
+                <div className='flex flex-row mt-10 md:mt-10 gap-6 md:gap-8 lg:gap-10'>
                     <a href="https://www.instagram.com/ayabiiii_/" className='flex justify-center'>
                         <img src="ig.png" alt="instagram"
                             className='w-[2rem] h-[2rem] md:w-[2rem] md:h-[2rem] lg:w-[3rem] lg:h-[3rem]' />
@@ -27,7 +27,7 @@ export default function About() {
                             className='w-[2rem] h-[2rem] md:w-[2rem] md:h-[2rem] lg:w-[3rem] lg:h-[3rem]' />
                     </a>
                 </div>
-                <p className='text-black font-Funnel_Sans font-medium text-center mt-5 md:mt-10 xl:mt-5 text-xs'>©️ WIBI LAKSONO WIJAYA</p>
+                <p className='text-black font-Funnel_Sans font-medium text-center mt-14 md:mt-10 xl:mt-10 text-xs'>©️ WIBI LAKSONO WIJAYA</p>
             </div>
         </footer>
     );
