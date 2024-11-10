@@ -61,7 +61,7 @@ console.log("Selamat datang!")
 
 export default function Hero() {
     return (
-        <div className="relative overflow-hidden -mb-[5rem]" id="hero">
+        <div className="relative overflow-hidden -mb-[5rem] mt-24" id="hero">
             <div className="absolute inset-0 z-0 my-4 -ml-[10vh] bg-black w-[12rem] h-[12rem] rounded-full float-animation-x"></div>
             <div className="absolute inset-0 z-0 mt-32 -ml-[7vh] bg-purple-800 w-[18rem] h-[18rem] rounded-full float-animation-y"></div>
             <div className="absolute inset-0 z-0 mt-32 ml-[calc(100vw-11rem)] md:ml-[calc(100vw-20rem)] bg-purple-800 w-[30rem] h-[30rem] rounded-full float-animation-y"></div>
