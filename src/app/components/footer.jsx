@@ -12,19 +12,19 @@ export default function About() {
                 <div className='flex flex-row mt-4 md:mt-10 gap-4 md:gap-8 lg:gap-10'>
                     <a href="https://www.instagram.com/ayabiiii_/" className='flex justify-center'>
                         <img src="ig.png" alt="instagram"
-                            className='w-[3rem] h-[3rem] md:w-[2rem] md:h-[2rem] lg:w-[3rem] lg:h-[3rem]' />
+                            className='w-[2rem] h-[2rem] md:w-[2rem] md:h-[2rem] lg:w-[3rem] lg:h-[3rem]' />
                     </a>
                     <a href="www.linkedin.com/in/wibi-laksono-wijaya-4139672b6" className='flex justify-center'>
                         <img src="linkedin.png" alt="Linkedin"
-                            className='w-[3rem] h-[3rem] md:w-[2rem] md:h-[2rem] lg:w-[3rem] lg:h-[3rem]' />
+                            className='w-[2rem] h-[2rem] md:w-[2rem] md:h-[2rem] lg:w-[3rem] lg:h-[3rem]' />
                     </a>
                     <a href="https://mail.google.com/mail/?view=cm&fs=1&to=wibilaksonowijaya@mail.ugm.ac.id&su=DISKUSI%20DARI%20WEB%20PORTOFOLIO" target="_blank" className='flex justify-center'>
                         <img src="email.png" alt="email"
-                            className='w-[3rem] h-[3rem] md:w-[2rem] md:h-[2rem] lg:w-[3rem] lg:h-[3rem]' />
+                            className='w-[2rem] h-[2rem] md:w-[2rem] md:h-[2rem] lg:w-[3rem] lg:h-[3rem]' />
                     </a>
                     <a href="https://github.com/WibiLaksono" className='flex justify-center'>
                         <img src="github.png" alt="Github"
-                            className='w-[3rem] h-[3rem] md:w-[2rem] md:h-[2rem] lg:w-[3rem] lg:h-[3rem]' />
+                            className='w-[2rem] h-[2rem] md:w-[2rem] md:h-[2rem] lg:w-[3rem] lg:h-[3rem]' />
                     </a>
                 </div>
                 <p className='text-black font-Funnel_Sans font-medium text-center mt-5 md:mt-10 xl:mt-5 text-xs'>©️ WIBI LAKSONO WIJAYA</p>

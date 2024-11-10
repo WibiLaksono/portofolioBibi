@@ -30,14 +30,14 @@ export default function Project() {
             </div>
 
             {/* Main content */}
-            <div className="z-10 -mt-10">
+            <div className="z-10 -mt-5">
                 <div className="flex flex-col -mt-14 justify-center items-center w-full h-[100vh] backdrop-blur-md bg-white bg-opacity-70">
                     <div className="p-5 backdrop-blur-none bg-purple-300 bg-opacity-50 shadow-xl rounded-lg">
-                        <h1 className="text-black font-Fira_Code text-3xl">My Projects</h1>
+                        <h1 className="text-black font-Fira_Code text-xl">My Projects</h1>
                     </div>
 
                     <div className="mt-7 md:w-[80vw]">
-                        <p className="text-black font-Funnel_Sans text-lg text-center md:text-2xl lg:text-3xl">
+                        <p className="text-black font-Funnel_Sans text-base text-center md:text-2xl lg:text-3xl">
                             Berikut adalah beberapa project yang pernah kukerjakan baik secara individu atau bekerja secara team
                         </p>
                     </div>
@@ -70,7 +70,7 @@ export default function Project() {
                                 <img 
                                     src="project1.png" 
                                     alt="Project 1" 
-                                    className="rounded-lg object-cover w-full h-[50%] mb-3 -mt-10"
+                                    className="rounded-lg object-cover w-full h-[50%] mb-3 -mt-5"
                                 />
                                 <h2 className="text-3xl font-Fira_Code font-bold md:text-3xl mt-2 text-gray-800 text-center">
                                     Menu Data Sarana
@@ -86,7 +86,7 @@ export default function Project() {
                                 <img 
                                     src="project2.png" 
                                     alt="Project 2" 
-                                    className="rounded-lg object-cover w-full h-[50%] mb-3 -mt-10"
+                                    className="rounded-lg object-cover w-full h-[50%] mb-3 -mt-5"
                                 />
                                 <h2 className="text-3xl font-Fira_Code font-bold md:text-3xl mt-2 text-gray-800 text-center">
                                     Check Kesehatan
@@ -102,13 +102,13 @@ export default function Project() {
                                 <img 
                                     src="project3.png" 
                                     alt="Project 3" 
-                                    className="rounded-lg object-cover w-full h-[50%] mb-3 -mt-10"
+                                    className="rounded-lg object-cover w-full h-[50%] mb-3 "
                                 />
                                 <h2 className="text-3xl font-Fira_Code font-bold md:text-3xl mt-2 text-gray-800 text-center">
                                     Menu Voting Malpres 2024
                                 </h2>
                                 <p className="text-lg mt-3 text-black font-Funnel_Sans text-center">
-                                    Menu voting di website Malpres MIPA UGM dibuat menggunakan React, Next.js, dan Tailwind CSS, memungkinkan pemilihan nomine secara cepat dan mudah dengan antarmuka yang responsif dan modern.
+                                    Menu voting di website Malpres MIPA UGM dibuat menggunakan React, Next.js, dan Tailwind CSS, memungkinkan pemilihan nomine secara cepat dan mudah dengan antarmuka yang responsif.
                                 </p>
                             </div>
                         </SwiperSlide>
