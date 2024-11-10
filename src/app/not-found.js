@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 
+
 const TypingEffect = ({ text, speed }) => {
     const [displayedText, setDisplayedText] = useState("");
 
