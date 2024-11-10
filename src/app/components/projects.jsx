@@ -38,7 +38,7 @@ export default function Project() {
 
                     <div className="mt-7 md:w-[80vw]">
                         <p className="text-black font-Funnel_Sans text-base text-center md:text-2xl lg:text-3xl">
-                            Berikut adalah beberapa project yang pernah kukerjakan baik secara individu atau bekerja secara team
+                            Berikut adalah beberapa project yang pernah saya kerjakan baik secara individu atau bekerja secara team
                         </p>
                     </div>
 
