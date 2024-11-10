@@ -88,7 +88,7 @@ export default function Hero() {
                             <TypingEffect text={'console.log("Selamat datang!")'} speed={100} />
                         </h1>
                         <p className="text-center text-black font-Funnel_Sans text-base md:text-2xl text-wrap w-[60vw] h-[15vh]">
-                            Selamat datang di portofolio <b>Wibi Laksono Wijaya!</b> Jelajahi berbagai proyek dan pengalaman saya di bidang teknologi. Terima kasih sudah berkunjung, dan jangan ragu untuk menghubungi jika ada yang ingin didiskusikan!
+                            Selamat datang di personal website <b>Wibi Laksono Wijaya!</b> Jelajahi berbagai proyek dan pengalaman saya di bidang teknologi. Terima kasih sudah berkunjung, dan jangan ragu untuk menghubungi jika ada yang ingin didiskusikan!
                         </p>
                     </div>
                 </div>

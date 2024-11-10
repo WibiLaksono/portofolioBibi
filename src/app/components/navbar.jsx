@@ -19,7 +19,7 @@ export default function Navbar() {
             <div className="flex justify-center pt-5 w-[90vw] bg-purple-100 rounded-lg">
                 <nav className="flex justify-between items-center w-full h-[7vh] relative rounded-lg">
                     <div className="text-black font-Funnel_Sans ml-10 mb-5 text-lg p-3 rounded-lg font-medium">
-                        <Link href="/">Portofolio <span className="font-bold">Bibi</span></Link>
+                        <Link href="/">Halo <span className="font-bold">Semuanya</span></Link>
                     </div>
 
                     {/* Hamburger icon for small screens */}
